@@ -13,9 +13,7 @@ import {
   Text,
   useColorModeValue,
   Link,
-  Image, // Import Image component
 } from "@chakra-ui/react";
-import logo from "../../public/tweed.png"; // Import the logo
 
 import { useState } from "react";
 import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
@@ -64,8 +62,6 @@ export default function SignupCard() {
     <Flex align={"center"} justify={"center"}>
       <Stack spacing={8} mx={"auto"} maxW={"lg"} py={23} px={6}>
         <Stack align={"center"}>
-          <Image src={logo} alt="Logo" boxSize="110px" />{" "}
-          {/* Add the logo here */}
           <Heading fontSize={"4xl"} textAlign={"center"}>
             Sign up
           </Heading>
